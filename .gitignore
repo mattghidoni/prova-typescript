@@ -1,0 +1,5 @@
+# escludo i node_modules
+node_modules
+# escludo ts compilation files
+dist
+src/

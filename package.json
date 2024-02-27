@@ -1,0 +1,15 @@
+{
+  "name": "prova-typescript",
+  "version": "0.0.0",
+  "description": "primo programma typescript",
+  "main": "main.js",
+  "author": "Mattia Ghidoni",
+  "license": "MIT",
+  "scripts": {
+    "build": "npx tsc",
+    "start": "yarn build && node ./dist/src/main.js"
+  },
+  "devDependencies": {
+    "typescript": "^5.3.3"
+  }
+}
